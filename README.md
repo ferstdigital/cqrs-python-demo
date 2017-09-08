@@ -1,21 +1,21 @@
 # cqrs-python-demo
 For research purposes only. Learn from our experiments :) but, it is generally an attempt to do the following:
 
-# working CQRS system
-# event sourced
-# view model
-# commands
-# single REST api (for convenience)
+* working CQRS system
+* event sourced
+* view model
+* commands
+* single REST api (for convenience)
 
 ## The Stack
 
 Since we're considering event-sourcing and CQRS for our own techstack, I wanted to try it out first hand, using some pre-made event-source offering.
 The focus was to get a practical feel of a CQRS implementation, and the possible issues with event-sourcing.
 
-# Event Sourcing https://geteventstore.com
-# Event Store Client https://github.com/madedotcom/atomicpuppy
-# REST API http://flask.pocoo.org
-# View Models https://www.postgresql.org
+* Event Sourcing https://geteventstore.com
+* Event Store Client https://github.com/madedotcom/atomicpuppy
+* REST API http://flask.pocoo.org
+* View Models https://www.postgresql.org
 
 ### Event-Store Options
 
