@@ -1,5 +1,7 @@
 # cqrs-python-demo
-For research purposes only. Learn from our experiments :) but, it is generally an attempt to do the following:
+For research purposes only. But feel free to learn from our experiments :)
+
+Generally this is an attempt to do the following:
 
 * working CQRS system
 * event sourced
@@ -19,9 +21,9 @@ The focus was to get a practical feel of a CQRS implementation, and the possible
 
 ### Event-Store Options
 
-* https://geteventstore.com (C#, .NET, and plenty of community adapterS)
-* http://eventuate.io (java)
-* https://github.com/johnbywater/eventsourcing (Python)
+* [https://geteventstore.com](https://geteventstore.com) (C#, .NET, and plenty of community adapterS)
+* [http://eventuate.io](http://eventuate.io) (java)
+* [https://github.com/johnbywater/eventsourcing](https://github.com/johnbywater/eventsourcing) (Python)
 
 ### What is CQRS?
 
@@ -29,13 +31,13 @@ CQRS stands for Command Query Responsibility Segregation
 
 https://martinfowler.com/bliki/CQRS.html
 
-*Learn more about CQRS*
+**Learn more about CQRS**
 
-If you're new to microservices or command-query-responsibility-segregation checkout some of these resources which I found particularily useful.
+If you're new to microservices or command query responsibility segregation checkout some of these resources which I found particularily useful.
 
-* "When Microservices Meet Event Sourcing" https://www.youtube.com/watch?v=cISNDnwlSgw
-* "Developing microservices with aggregates - Chris Richardson" https://www.youtube.com/watch?v=7kX3fs0pWwc
-* "Event Sourcing in practice" https://ookami86.github.io/event-sourcing-in-practice/
-* Eventually Consistent Distributed Systems with Node.js for Finance - Stefan Kutko of Electronifie https://www.youtube.com/watch?v=X_VHWQa1k0k
-* Dealing with CQRS issues http://danielwhittaker.me/2015/02/02/upgrade-cqrs-events-without-busting/
-* Principles Of Microservices by Sam Newman https://www.youtube.com/watch?v=PFQnNFe27kU
+* [When Microservices Meet Event Sourcing](https://www.youtube.com/watch?v=cISNDnwlSgw)
+* [Developing microservices with aggregates - Chris Richardson](https://www.youtube.com/watch?v=7kX3fs0pWwc)
+* [Event Sourcing in practice](https://ookami86.github.io/event-sourcing-in-practice/)
+* [Eventually Consistent Distributed Systems with Node.js for Finance - Stefan Kutko of Electronifie](https://www.youtube.com/watch?v=X_VHWQa1k0k)
+* [Dealing with CQRS issues](http://danielwhittaker.me/2015/02/02/upgrade-cqrs-events-without-busting/)
+* [Principles Of Microservices by Sam Newman](https://www.youtube.com/watch?v=PFQnNFe27kU)
