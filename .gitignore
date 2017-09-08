@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+.git
+__pycache__
+*.pyc
+env
+logs
+.env
+
 # Distribution / packaging
 .Python
 env/

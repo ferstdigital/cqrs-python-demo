@@ -1,0 +1,32 @@
+version: '3'
+services:
+  eventstore:
+    image: eventstore/eventstore
+    ports:
+      - "2113:2113"
+      - "1113:1113"
+  postgres:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=cqsr_eventstore_demo
+      - POSTGRES_PASSWORD=CQSR
+  readaccount:
+    build: .
+    command: ["./wait-for-it.sh", "eventstore:2113", "--", "./wait-for-it.sh", "postgres:5432", "--", "gunicorn", "apps.readaccount.app"]
+    env_file:
+      - .env
+    depends_on:
+      - postgres
+      - eventstore
+  restaccount:
+    build: .
+    command: ["./wait-for-it.sh", "postgres:5432", "--", "gunicorn", "-b", "0.0.0.0:8000", "apps.restaccount.app"]
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+      - eventstore
