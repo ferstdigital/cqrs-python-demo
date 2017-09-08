@@ -10,6 +10,9 @@ Generally this is an attempt to do the following:
 * commands
 * single REST api (for convenience)
 
+**Built with 🍁 by fellows of
+[ferstdigital.com](https://www.ferstdigital.com)**
+
 ## The Stack
 
 Since we're considering event-sourcing and CQRS for our own techstack, I wanted to try it out first hand, using some pre-made event-source offering.
