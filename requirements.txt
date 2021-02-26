@@ -1,4 +1,4 @@
-aiohttp==2.2.5
+aiohttp==3.7.4
 arrow==0.10.0
 asn1crypto==0.22.0
 astroid==1.5.3
