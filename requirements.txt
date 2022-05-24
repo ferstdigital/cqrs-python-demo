@@ -58,7 +58,7 @@ pyasn1-modules==0.0.11
 pybreaker==0.4.0
 pycparser==2.18
 PyDispatcher==2.0.5
-PyJWT==1.5.2
+PyJWT==2.4.0
 pylint==1.7.2
 pyOpenSSL==17.2.0
 python-dateutil==2.6.1
