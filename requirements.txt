@@ -81,7 +81,7 @@ social-auth-app-django==1.2.0
 social-auth-core==1.4.0
 SQLAlchemy==1.1.13
 tablib==0.11.5
-Twisted==17.5.0
+Twisted==22.4.0
 unicodecsv==0.14.1
 Unipath==1.1
 urllib3==1.22
